@@ -12,7 +12,7 @@ public class Test {
 
         DyxApplicationContext dyxApplicationContext = new DyxApplicationContext(AppConfig.class);
 
-        Object userService = dyxApplicationContext.getBean("userService");
+        System.out.println(dyxApplicationContext.getBean("userService"));
 
     }
 }

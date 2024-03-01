@@ -1,6 +1,7 @@
 package com.dyx.service;
 
 import com.spring.Annotation.Component;
+import com.spring.Annotation.Scope;
 
 /**
  * @Author: dyx1234
@@ -10,6 +11,7 @@ import com.spring.Annotation.Component;
 
 
 @Component("userService")
+@Scope("prototype")
 public class UserService {
 
 }
