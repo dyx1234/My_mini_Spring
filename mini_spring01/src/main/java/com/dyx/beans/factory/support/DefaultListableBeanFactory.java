@@ -15,6 +15,7 @@ public class DefaultListableBeanFactory implements BeanFactory {
 
     public final Map<String, BeanDefinition> beanDefinitionMap  = new ConcurrentHashMap<String, BeanDefinition>(16);
 
+    @Override
     public Object getBean(String beanName) {
         return null;
     }

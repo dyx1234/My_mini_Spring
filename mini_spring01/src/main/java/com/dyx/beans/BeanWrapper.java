@@ -8,15 +8,34 @@ import lombok.Data;
  * @Description: 用于封装创建后的对象实例（bean）
  */
 
-@Data
 public class BeanWrapper {
-
+    /**
+     * <p>回由该对象包装的bean实例</p>
+     */
     private Object wrappedInstance;
-    private Class wappedClass;
 
     public BeanWrapper(Object wrappedInstance) {
         this.wrappedInstance = wrappedInstance;
-        this.wappedClass = wrappedInstance.getClass();
     }
 
+    /**
+     * <p>返回包装的bean实例的类型</p>
+     */
+    private Class<?> wrappedClass;
+
+    public Object getWrappedInstance() {
+        return wrappedInstance;
+    }
+
+    public void setWrappedInstance(Object wrappedInstance) {
+        this.wrappedInstance = wrappedInstance;
+    }
+
+    public Class<?> getWrappedClass() {
+        return wrappedClass;
+    }
+
+    public void setWrappedClass(Class<?> wrappedClass) {
+        this.wrappedClass = wrappedClass;
+    }
 }
