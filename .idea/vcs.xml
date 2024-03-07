@@ -2,9 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mini_spring01" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mini_spring02" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mini_spring03" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mini_spring04" vcs="Git" />
   </component>
 </project>
